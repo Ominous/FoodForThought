@@ -3,10 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 
 namespace Assets.Scripts.FFT_Model{
-	public class Kitchen : MonoBehaviour {
+	public class SlotTimer : Timer {
 
-		private List<Station> stations;
-		private List<Dish> dishes;
+		private bool hasBurn, hasPeak;
+		private <T> timerData;
 
 	}
 }
